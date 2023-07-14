@@ -16,4 +16,4 @@ def index():
         return "예측할 값을 입력해라"
 
 
-app.run(debug=True)
+app.run(debug=True,host='0.0.0.0')
