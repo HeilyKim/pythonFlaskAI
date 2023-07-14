@@ -1,10 +1,8 @@
-import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_validate
-from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, GradientBoostingClassifier,HistGradientBoostingClassifier
-from lightgbm import LGBMClassifier
-from xgboost import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier
+
 
 wine = pd.read_csv('https://bit.ly/wine_csv_data')
 
